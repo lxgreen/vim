@@ -1,0 +1,11 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =9
+let g:netrw_dirhist_1='c:/users/alex.greenstein/desktop/Fredy'
+let g:netrw_dirhist_2='c:/users/alex.greenstein/desktop'
+let g:netrw_dirhist_3='c:/users/alex.greenstein'
+let g:netrw_dirhist_4='c:/users/alex.greenstein/Desktop'
+let g:netrw_dirhist_5='C:\users\alex.greenstein\desktop\todo'
+let g:netrw_dirhist_6='C:/users/alex.greenstein/desktop/todo'
+let g:netrw_dirhist_7='C:/users/alex.greenstein/desktop'
+let g:netrw_dirhist_8='C:\users\alex.greenstein\desktop\todo'
+let g:netrw_dirhist_9='C:/users/alex.greenstein/desktop/todo'
