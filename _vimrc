@@ -3,6 +3,7 @@ source $VIMRUNTIME/vimrc_example.vim
 source $VIMRUNTIME/mswin.vim
 behave mswin
 
+
 " === MY SETTINGS === "
 " Set UTF-8 encoding. Depends on DejaVu San Mono font.
 set enc=utf-8
@@ -70,7 +71,6 @@ inoremap <A-k> <Esc>:m .-2<CR>==gi
 vnoremap <A-j> :m '>+1<CR>gv=gv
 vnoremap <A-k> :m '<-2<CR>gv=gv
 
-" http://vimcasts.org/episodes/the-edit-command/
 cnoremap %% <C-R>=fnameescape(expand('%:h')).'/'<cr>
 map <leader>ew :e %%
 map <leader>es :sp %%
