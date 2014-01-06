@@ -3,6 +3,11 @@ source $VIMRUNTIME/vimrc_example.vim
 source $VIMRUNTIME/mswin.vim
 behave mswin
 
+" === MY SETTINGS === "
+" Set UTF-8 encoding. Depends on DejaVu San Mono font.
+set enc=utf-8
+set fileencoding=utf-8
+set fileencodings=ucs-bom,utf8,prc
 set guifont=DejaVu\ Sans\ Mono:h11
 set guifontwide=Consolas:h11
 
