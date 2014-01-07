@@ -97,3 +97,12 @@ endif
 " http://vimcasts.org/episodes/undo-branching-and-gundo-vim/
 " depends on Python for Windows (cygwin is unsufficient)
 nnoremap <Leader>u :GundoToggle<CR>
+
+" fugitive commands abbreviations
+ab ga Git add
+ab gb Gblame
+ab gc Gcommit -m "
+ab gs Git status
+ab gp Git push
+ab gd Git diff
+ab gco Git clone
