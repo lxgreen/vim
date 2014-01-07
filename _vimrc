@@ -33,7 +33,6 @@ function! <SID>CleanUpEmptySpace()
     %s#\($\n\s*\)\+\%$##
     call cursor(l, c)
 endfunction
-nnoremap <silent> <F5> :call <SID>CleanUpEmptySpace()<CR>
 autocmd BufWritePre *.* :call <SID>CleanUpEmptySpace()
 
 " http://vimcasts.org/episodes/indentation-commands/
@@ -94,3 +93,7 @@ if exists(":Tabularize")
   nmap <Leader>=: :Tabularize /:\zs<CR>
   vmap <Leader>=: :Tabularize /:\zs<CR>
 endif
+
+" http://vimcasts.org/episodes/undo-branching-and-gundo-vim/
+" depends on Python for Windows (cygwin is unsufficient)
+nnoremap <Leader>u :GundoToggle<CR>
