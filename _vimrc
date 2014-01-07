@@ -86,3 +86,11 @@ if has("autocmd")
 endif
 
 nmap <leader>v :tabedit $MYVIMRC<CR>
+
+" http://vimcasts.org/episodes/aligning-text-with-tabular-vim/
+if exists(":Tabularize")
+  nmap <Leader>== :Tabularize /=<CR>
+  vmap <Leader>== :Tabularize /=<CR>
+  nmap <Leader>=: :Tabularize /:\zs<CR>
+  vmap <Leader>=: :Tabularize /:\zs<CR>
+endif
