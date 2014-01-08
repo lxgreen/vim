@@ -106,3 +106,6 @@ ab gs Git status
 ab gp Git push
 ab gd Git diff
 ab gco Git clone
+
+autocmd BufWinLeave *.* mkview
+autocmd BufWinEnter *.* silent loadview
