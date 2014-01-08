@@ -101,7 +101,11 @@ nnoremap <Leader>u :GundoToggle<CR>
 " fugitive commands abbreviations
 ab ga Git add
 ab gb Gblame
+<<<<<<< HEAD
 ab gc Gcommit -m 
+=======
+ab gc Gcommit -m "
+>>>>>>> 3d579091b662d1601051d2bc38f87ebfd0192dde
 ab gs Git status
 ab gp Git push
 ab gd Git diff
