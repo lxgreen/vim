@@ -109,3 +109,5 @@ ab gco Git clone
 
 autocmd BufWinLeave *.* mkview
 autocmd BufWinEnter *.* silent loadview
+
+ab todo e $VIM/vim.todo<CR>
