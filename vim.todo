@@ -1,13 +1,14 @@
+☐ resolve E484 temp file error for fugitive
 ☐ CleanUpEmptySpace error to fix
-☐ Hebrew support
+☐ add Hebrew support
 ☐ run Vim in ConEmu
 ☐ spell check for Russian & Hebrew
 ☐ Vim cast
-✔ Gundo support @done (2014-01-07 21:15)
 
 Archive:
 ––––––––––––––––––––––––––
 ✔ map NERDtree, taglist, window navigation, tasks @done (2013-12-23 19:50)
+✔ Gundo support @done (2014-01-07 21:15)
 ✔ change task archive separator @done (2013-12-23 19:19)
 ✔ utf-8 support @done (2013-12-23 19:49)
 ✔ add easymotion plugin @done (2013-12-23 19:49)

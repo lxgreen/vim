@@ -1,3 +1,5 @@
+set shell=cmd
+set shellcmdflag=/c
 set nocompatible
 source $VIMRUNTIME/vimrc_example.vim
 source $VIMRUNTIME/mswin.vim
@@ -111,3 +113,5 @@ autocmd BufWinLeave *.* mkview
 autocmd BufWinEnter *.* silent loadview
 
 ab todo e $VIM/vim.todo<CR>
+
+let $TMP="C:/tmp"
