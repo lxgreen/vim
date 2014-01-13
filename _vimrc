@@ -101,17 +101,17 @@ endif
 nnoremap <Leader>u :GundoToggle<CR>
 
 " fugitive commands abbreviations
-ab ga Git add
-ab gb Gblame
-ab gc Gcommit -m
-ab gs Git status
-ab gp Git push
-ab gd Git diff
-ab gco Git clone
+cab ga Git add
+cab gb Gblame
+cab gc Gcommit -m
+cab gs Gstatus
+cab gp Git push
+cab gd Gdiff
+cab gco Git clone
 
 autocmd BufWinLeave *.* mkview
 autocmd BufWinEnter *.* silent loadview
 
-ab todo e $VIM/vim.todo<CR>
+cab todo e $VIM/vim.todo<CR>
 
 let $TMP="C:/tmp"
