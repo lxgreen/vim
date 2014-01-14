@@ -44,8 +44,8 @@ vmap <S-Tab> <gv
 vmap <Tab> >gv
 
 " plugin mappings
-nmap <silent> <leader>d :NERDTree d:\<CR>
-nmap <silent> <leader>c :NERDTree c:\<CR>
+nmap <silent> ,d :NERDTree d:\<CR>
+nmap <silent> ,c :NERDTree c:\<CR>
 
 nmap <silent> <leader>t :TlistToggle<CR>
 
@@ -109,6 +109,7 @@ cab gp Git push
 cab gd Gdiff
 cab gco Git clone
 
+" keep folds between sessions
 autocmd BufWinLeave *.* mkview
 autocmd BufWinEnter *.* silent loadview
 
