@@ -113,6 +113,6 @@ cab gco Git clone
 autocmd BufWinLeave *.* mkview
 autocmd BufWinEnter *.* silent loadview
 
-cab todo e $VIM/vim.todo<CR>
+cab tbd e $VIM/vim.todo<CR>
 
 let $TMP="C:/tmp"
