@@ -1,9 +1,17 @@
-☐ improve emmet shortcuts
-☐ CleanUpEmptySpace error to fix
-☐ add Hebrew support
-☐ run Vim in ConEmu
-☐ spell check for Russian & Hebrew
-☐ Vim cast
+Development:
+    ☐ add Vundle plugin
+    ☐ add YouCompleteMe plugin
+    ☐ add full autocomplete
+    ☐ support HTML tags browsing
+    ☐ improve emmet shortcuts
+Multilanguage:
+    ☐ add Hebrew support
+    ☐ spell check for Russian & Hebrew
+Annoyance:
+    ☐ CleanUpEmptySpace error to fix
+    ☐ run Vim in ConEmu
+Other:
+    ☐ VimCasts.org
 
 Archive:
 ––––––––––––––––––––––––––

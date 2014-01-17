@@ -14,6 +14,11 @@ set fileencodings=ucs-bom,utf8,prc
 set guifont=DejaVu\ Sans\ Mono:h11
 set guifontwide=Consolas:h11
 
+let $TMP="C:/tmp"
+let $PRJ="D:/Projects"
+
+cd $PRJ
+
 " Molokai theme
 colorscheme molokai
 
@@ -115,4 +120,10 @@ autocmd BufWinEnter *.* silent loadview
 
 cab tbd e $VIM/vim.todo<CR>
 
-let $TMP="C:/tmp"
+" NERDComment support
+filetype plugin on
+set omnifunc=syntaxcomplete#Complete
+set completeopt=longest,menuone
+
+" snipMate autocomplete
+let g:acp_behaviorSnipmateLength=-1 
