@@ -27,6 +27,7 @@ Bundle 'godlygeek/tabular'
 Bundle 'tomasr/molokai'
 Bundle "MarcWeber/vim-addon-mw-utils"
 Bundle "tomtom/tlib_vim"
+Bundle 'honza/vim-snippets'
 Bundle "garbas/vim-snipmate"
 Bundle "Valloric/YouCompleteMe"
 
@@ -148,8 +149,6 @@ cab tbd e $VIM/vim.todo<CR>
 
 " NERDComment support
 filetype plugin on
-set omnifunc=syntaxcomplete#Complete
-set completeopt=longest,menuone
 
 " snipMate autocomplete
-let g:acp_behaviorSnipmateLength=-1 
+ let g:ycm_key_list_select_completion = ['<Down>']
