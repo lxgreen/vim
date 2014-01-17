@@ -5,6 +5,29 @@ source $VIMRUNTIME/vimrc_example.vim
 source $VIMRUNTIME/mswin.vim
 behave mswin
 
+" Bundles
+filetype off   
+set rtp+=$VIM/vimfiles/bundle/vundle/
+call vundle#rc("$VIM/vimfiles/bundle")
+Bundle 'gmarik/vundle'
+Bundle 'tpope/vim-fugitive'
+Bundle 'Lokaltog/vim-easymotion'
+Bundle 'scrooloose/nerdcommenter'
+Bundle 'scrooloose/nerdtree'
+Bundle 'sjl/gundo.vim'
+Bundle 'mattn/emmet-vim'
+Bundle 'elentok/plaintasks.vim'
+Bundle 'taglist.vim'
+Bundle 'spolu/dwm.vim'
+Bundle 'tpope/vim-surround'
+Bundle 'vim-scripts/DrawIt'
+Bundle 'kien/ctrlp.vim'
+Bundle 'vim-scripts/DrawIt'
+Bundle 'godlygeek/tabular'
+Bundle 'tomasr/molokai'
+Bundle "MarcWeber/vim-addon-mw-utils"
+Bundle "tomtom/tlib_vim"
+Bundle "garbas/vim-snipmate"
 
 " === MY SETTINGS === "
 " Set UTF-8 encoding. Depends on DejaVu San Mono font.
@@ -48,6 +71,8 @@ nmap <Tab> >>
 vmap <S-Tab> <gv
 vmap <Tab> >gv
 
+
+filetype plugin indent on
 " plugin mappings
 nmap <silent> ,d :NERDTree d:\<CR>
 nmap <silent> ,c :NERDTree c:\<CR>
@@ -124,6 +149,3 @@ cab tbd e $VIM/vim.todo<CR>
 filetype plugin on
 set omnifunc=syntaxcomplete#Complete
 set completeopt=longest,menuone
-
-" snipMate autocomplete
-let g:acp_behaviorSnipmateLength=-1 

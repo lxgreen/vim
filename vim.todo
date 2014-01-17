@@ -1,7 +1,7 @@
 Development:
-    ☐ add Vundle plugin
+    ✔ add Vundle plugin @done (2014-01-17 17:13)
     ☐ add YouCompleteMe plugin
-    ☐ add full autocomplete
+    ☐ add full autocomplete with YCM + remove ACP
     ☐ support HTML tags browsing
     ☐ improve emmet shortcuts
 Multilanguage:
@@ -10,6 +10,7 @@ Multilanguage:
 Annoyance:
     ☐ CleanUpEmptySpace error to fix
     ☐ run Vim in ConEmu
+    ☐ remap tasks: \+ = new task ('☐ '), \x = cancelled, \v = done, \a = archive
 Other:
     ☐ VimCasts.org
 
