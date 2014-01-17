@@ -28,6 +28,7 @@ Bundle 'tomasr/molokai'
 Bundle "MarcWeber/vim-addon-mw-utils"
 Bundle "tomtom/tlib_vim"
 Bundle "garbas/vim-snipmate"
+Bundle "Valloric/YouCompleteMe"
 
 " === MY SETTINGS === "
 " Set UTF-8 encoding. Depends on DejaVu San Mono font.
@@ -127,7 +128,7 @@ if exists(":Tabularize")
 endif
 
 " http://vimcasts.org/episodes/undo-branching-and-gundo-vim/
-" depends on Python for Windows (cygwin is unsufficient)
+" depends on Python for Windows (cygwin is insufficient)
 nnoremap <Leader>u :GundoToggle<CR>
 
 " fugitive commands abbreviations
@@ -149,3 +150,6 @@ cab tbd e $VIM/vim.todo<CR>
 filetype plugin on
 set omnifunc=syntaxcomplete#Complete
 set completeopt=longest,menuone
+
+" snipMate autocomplete
+let g:acp_behaviorSnipmateLength=-1 
