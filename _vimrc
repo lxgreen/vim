@@ -62,7 +62,7 @@ function! <SID>CleanUpEmptySpace()
     let l = line(".")
     let c = col(".")
     %s/\s\+$//e
-    %s#\($\n\s*\)\+\%$##
+    %s:\($\n\s*\)\+\%$::e
     call cursor(l, c)
 endfunction
 autocmd BufWritePre *.* :call <SID>CleanUpEmptySpace()
@@ -75,10 +75,11 @@ vmap <Tab> >gv
 
 
 filetype plugin indent on
-" plugin mappings
+" NERDTree mappings
 nmap <silent> ,d :NERDTree d:\<CR>
 nmap <silent> ,c :NERDTree c:\<CR>
 
+" taglist mappings
 nmap <silent> <leader>t :TlistToggle<CR>
 
 " http://vimcasts.org/episodes/working-with-windows/
@@ -145,10 +146,14 @@ cab gco Git clone
 autocmd BufWinLeave *.* mkview
 autocmd BufWinEnter *.* silent loadview
 
-cab tbd e $VIM/vim.todo<CR>
+" TODO shortcut
+cab tbd tabe $VIM/vim.todo<CR>
 
-" NERDComment support
+" NERDComment + snipmate support
 filetype plugin on
 
-" snipMate autocomplete
+" snipMate autocomplete on Tab (cancel YCM navigation on Tab)
  let g:ycm_key_list_select_completion = ['<Down>']
+
+" preview in browser
+map <silent><F12> :!"C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" %<CR>

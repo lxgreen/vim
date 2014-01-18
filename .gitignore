@@ -2,3 +2,4 @@
 *~
 *.swp
 /vimfiles/view/*
+/vimfiles/bundle/*

@@ -4,11 +4,13 @@ Development:
     ✔ add full autocomplete with YCM + remove ACP @done (2014-01-18 14:39)
     ☐ support HTML tags browsing
     ☐ improve emmet shortcuts
-Multilanguage:
+    ☐ livereload support
+    ✔ open in browser shortcut @done (2014-01-18 22:09)
+Multi language:
     ☐ add Hebrew support
     ☐ spell check for Russian & Hebrew
 Annoyance:
-    ☐ CleanUpEmptySpace error to fix
+    ✔ CleanUpEmptySpace: suppress warning @done (2014-01-18 22:08)
     ☐ run Vim in ConEmu
     ☐ remap tasks: \+ = new task ('☐ '), \x = cancelled, \v = done, \a = archive
 Other:
