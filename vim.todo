@@ -1,7 +1,7 @@
 Development:
     ✔ add Vundle plugin @done (2014-01-17 17:13)
-    ☐ add YouCompleteMe plugin
-    ☐ add full autocomplete with YCM + remove ACP
+    ✔ add YouCompleteMe plugin @done (2014-01-18 14:39)
+    ✔ add full autocomplete with YCM + remove ACP @done (2014-01-18 14:39)
     ☐ support HTML tags browsing
     ☐ improve emmet shortcuts
 Multilanguage:
