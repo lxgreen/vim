@@ -30,6 +30,7 @@ Bundle 'honza/vim-snippets'
 Bundle "garbas/vim-snipmate"
 Bundle "Valloric/YouCompleteMe"
 Bundle "nathanaelkane/vim-indent-guides"
+Bundle 'vim-scripts/camelcasemotion'
 
 " === MY SETTINGS === "
 " Set UTF-8 encoding. Depends on DejaVu San Mono font.
@@ -158,3 +159,10 @@ filetype plugin on
 " preview in browser
 map <silent><F12> :!"C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" %<CR>
 nmap <silent> <leader>w :set wrap!<CR>
+
+map <silent> w <Plug>CamelCaseMotion_w
+map <silent> b <Plug>CamelCaseMotion_b
+map <silent> e <Plug>CamelCaseMotion_e
+sunmap w
+sunmap b
+sunmap e
