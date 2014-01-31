@@ -31,6 +31,8 @@ Bundle "garbas/vim-snipmate"
 Bundle "Valloric/YouCompleteMe"
 Bundle "nathanaelkane/vim-indent-guides"
 Bundle 'vim-scripts/camelcasemotion'
+Bundle 'xolox/vim-misc'
+Bundle 'xolox/vim-session'
 
 " === MY SETTINGS === "
 " Set UTF-8 encoding. Depends on DejaVu San Mono font.
@@ -166,3 +168,6 @@ map <silent> e <Plug>CamelCaseMotion_e
 sunmap w
 sunmap b
 sunmap e
+
+let g:session_autosave = 'yes'
+let g:session_autoload = 'yes'
